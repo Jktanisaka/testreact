@@ -6,10 +6,190 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #cccccc;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0
+    }
+
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      background-color: #cccccc;
+      padding-bottom: 60px
+    }
+
+    .main {
+      background-color: white;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+      font-family: sans-serif;
+      color: black
+    }
+
+    img {
+      border: 0
+    }
+
+    .two-columns {
+      text-align: center;
+      font-size: 0
+    }
+
+    .three-columns {
+      text-align: center;
+      font-size: 0
+    }
+
+    .two-columns .column {
+      width: 100%;
+      max-width: 300px;
+      display: inline-block;
+      vertical-align: top
+    }
+
+    .three-columns .column {
+      width: 100%;
+      max-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="wrapper">
+    <table class='main' width="100%">
+      <tr>
+        <td height="8" style="background-color: #171a1b;"></td>
+      </tr>
+      <!-- 2 column section -->
+      <tr>
+        <td style="padding: 14px 0 4px">
+          <table width='100%'>
+            <tr>
+              <td class='two-columns'>
+                <table class='column'>
+                  <tr>
+                    <td style="padding: 0 62px">
+                      <a href='jonathantanisaka.com'>
+                        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" width="600px"
+                          style="max-width: 100%">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <table class="column">
+                  <tr>
+                    <td style="padding: 0 62px">
+                      <a>
+                        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" width="600px"
+                          style="max-width: 100%">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!--3 column section-->
+      <tr>
+        <td>
+          <table width='100%'>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td class="three-columns">
 
+                      <table class="column">
+                        <tr>
+                          <td class="padding">
+                            <table class="content">
+                              <tr>
+                                <td>
+                                  <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" width="130"
+                                    style="max-width: 130px;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p style='font-weight: bold; font-size: 17px'>Title</p>
+                                  <p style="color: black; font-size: 12px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Ullam praesentium est earum molestias pariatur vitae qui.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <table class="column">
+                        <tr>
+                          <td class="padding">
+                            <table class="content">
+                              <tr>
+                                <td>
+                                  <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" width="130"
+                                    style="max-width: 130px;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p style='font-weight: bold; font-size: 17px'>Title</p>
+                                  <p style="color: black; font-size: 12px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Ullam praesentium est earum molestias pariatur vitae qui.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <table class="column">
+                        <tr>
+                          <td class="padding">
+                            <table class="content">
+                              <tr>
+                                <td>
+                                  <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" width="130"
+                                    style="max-width: 130px;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p style='font-weight: bold; font-size: 17px'>Title</p>
+                                  <p style="color: black; font-size: 12px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Ullam praesentium est earum molestias pariatur vitae qui.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
 
 </html>
